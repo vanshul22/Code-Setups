@@ -1,0 +1,23 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "This is a API Gateway. All API's will passes through this gateway and will take port number by their prefix of url.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [
+    "api-gateway"
+  ],
+  "author": "Vanshul Kesharwani",
+  "license": "ISC",
+  "dependencies": {
+    "fast-gateway": "^3.4.2",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
